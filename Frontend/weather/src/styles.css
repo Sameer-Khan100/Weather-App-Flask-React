@@ -1,0 +1,130 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #565454; /* Grey background */
+  }
+
+  .title {
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: auto;
+    
+  }
+  
+  .input {
+    width: 70%;
+    padding: 10px;
+    margin: auto;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .Outer-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 600px;
+    background: linear-gradient(to bottom right, #87d7ed, #ffffff);
+  }
+
+  .card {
+    background-color: #fff;
+    margin: auto;
+    padding: 0.5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.566);
+    text-align: center;
+    width: 300px;
+    position: relative; /* Add relative positioning to the card */
+    /* background: linear-gradient(to bottom right, #FFDAB9, #FFECB3); */
+  }
+  
+  .upper-part {
+    position: relative; /* Add relative positioning to the upper part */
+    
+  }
+  
+  .city-image {
+    max-width: 100%; /* Adjust the width of the city image to fit the container */
+    border-radius: 6px;
+    position: relative; /*Add relative positioning to the city image*/
+    filter: grayscale(40%);
+  }
+  
+ 
+  
+  .weather-icon {
+    position: absolute; /* Position the weather icon absolutely */
+    top: 10px; /* Adjust the top position of the weather icon */
+    left: 20px; /* Adjust the left position of the weather icon */
+ 
+  }
+  
+  .description {
+    position: absolute; /* Position the description absolutely */
+    bottom: 2px; /* Adjust the bottom position of the description */
+    right: 20px; /* Adjust the right position of the description */
+  }
+  
+  .weather-icon img {
+    width: 80px;
+    height: 80px;
+
+  }
+  
+  .description p {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  
+  .lower-part {
+    margin-top: 1px;
+    background: linear-gradient( rgba(255, 255, 255, 0.888), #f6f6f6);
+  }
+  
+  .temperature h2 {
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+  
+  .city-name p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .humidity p {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+
+  
